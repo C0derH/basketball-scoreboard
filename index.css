@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    max-width: 575px;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.scoreboard {
+    text-align: center;
+}
+
+.scoreboard-title {
+    font-family: Verdana,sans-serif;
+    font-size: 40px;
+    color: #EEEEEE;
+    margin: 0 0 10px 0px;
+}
+
+.scoreboard-score {
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    color: #F94F6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-family: Cursed Timer ULiL, sans-serif;
+    padding-top: 10px;
+    margin-bottom: 26px;
+}
+
+
+.btn {
+     font-family: Cursed Timer ULiL, sans-serif;
+     text-align: center;
+     background: none;
+     color: #9AABD8;
+     border: 2px solid #9AABD8;
+     border-radius: 5px;
+     padding: 10px;
+     font-size: 18px;
+     margin: 0 2px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
